@@ -2,7 +2,7 @@
 
 Custom CSS templates for Hashnode
 
-It's a Work in progress.
+> It's a Work-in-progress.
 
 The initial CSS template files can be accessed in `styles` folder.
 
@@ -15,7 +15,4 @@ The initial CSS template files can be accessed in `styles` folder.
 5. Font color improvements in dark mode
 6. Shaky effect on reactions
 
-### Demo
-Check out the [Demo](https://slashism.com) here
-
-Read more about this here on the [blog](https://slashism.com)
+Read about these CSS changes in detail on my [blog](https://slashism.com/how-i-added-sticky-header-and-custom-css-on-my-hashnode-blog). All these custom changes are applied on the blog already so you can check it out.
