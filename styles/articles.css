@@ -1,3 +1,11 @@
+.mode-dark .dark\:bg-brand-dark-grey-900 { background-color: #222830; }
+.mode-dark .dark\:bg-brand-black { background-color: #222830; }
+.mode-dark .blog-header { background-color: #222830; }
+.mode-dark .text-brand-blue { color: #aabbcc; }
+.mode-dark .dark\:border-brand-grey-800 { border-color: #222830; }
+.mode-dark .blog-series { border-color: #38404c; }
+.mode-dark .dark\:bg-brand-grey-900 { background-color: #1b2021; }
+
 pre { border: 1px solid gainsboro; }
 h2 { letter-spacing: 1px; display: inline-block; position: relative; z-index: 2; }
 h2:before { content: ''; display: block; height: 14px; width: 104%; background: #88e0bb; position: absolute; bottom: 1px; z-index: -1; left: -2%; }
@@ -10,10 +18,12 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 .mode-dark .prose a { color: #93b0ff; }
 
 .prose pre { color: #373737; background-color: #ffffff; }
-.mode-dark .prose pre { color: #e2e8f0; background-color: #1a1a1a; }
+.mode-dark .prose pre { color: #e2e8f0; background-color: #222830; border-color: #45505e; }
 .mode-dark .hljs-string, .mode-dark .hljs-type, .mode-dark .hljs-built_in, .mode-dark .hljs-builtin-name,
 .mode-dark .hljs-selector-id, .mode-dark .hljs-selector-attr, .mode-dark .hljs-selector-pseudo, .mode-dark .hljs-addition,
-.mode-dark .hljs-variable, .mode-dark .hljs-template-variable { color: #e6db74; }
+.mode-dark .hljs-variable, .mode-dark .hljs-template-variable { color: #9db0ff; }
+.mode-dark .hljs-code, .hljs-title, .hljs-section, .hljs-selector-class { color: #47cd92; }
+.mode-dark .hljs-keyword, .hljs-selector-tag, .hljs-name, .hljs-attr { color: #ff82af; }
 
 .hljs-string, .hljs-type, .hljs-built_in, .hljs-builtin-name,
 .hljs-selector-id, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition,
@@ -21,7 +31,7 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 
 .blog-post-area { padding-top: 20px; }
 .post-cover { border-radius: 8px; }
-.mode-dark .border-brand-blue { border-color: #2f2f2f; }
+.mode-dark .border-brand-blue { border-color: #4c5869; }
 .border-brand-blue { border-color: #e0e0e0; }
 .button-transparent.active { color: #5c5c5c; }
 .mode-dark .button-transparent.active { color: #949494; }
@@ -54,7 +64,7 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 @media (min-width: 1024px) {
   .blog-author-card { padding-top: 3rem; }
   .blog-header { position: fixed; width: 100%; background: #fff; }
-  .mode-dark .blog-header { position: fixed; width: 100%; background: #1c1c1c; }
+  .mode-dark .blog-header { position: fixed; width: 100%; }
   .blog-header + div { padding-top: 8.4rem; }
 }
 
