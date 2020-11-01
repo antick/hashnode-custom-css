@@ -1,4 +1,6 @@
-.mode-dark .dark\:bg-black { background-color: #1a1a1a; }
+.mode-dark .dark\:bg-black { background-color: #222830; }
+.mode-dark .dark\:bg-brand-black { background-color: #222830; }
+.mode-dark .blog-header { background-color: #222830; }
 .blog-header + div { border-bottom: 1px solid #eee; }
 .mode-dark .blog-header + div { border-color: #2d3748; border-color: rgba(45, 55, 72, 1); }
 .mode-dark .prose a { color: #93b0ff; }
@@ -15,7 +17,7 @@
 @media (min-width: 1024px) {
   .blog-author-card { padding-top: 3rem; }
   .blog-header { position: fixed; width: 100%; background: #fff; }
-  .mode-dark .blog-header { position: fixed; width: 100%; background: #1c1c1c; }
+  .mode-dark .blog-header { position: fixed; width: 100%; }
   .blog-header + div { padding-top: 8.4rem; }
 }
 
