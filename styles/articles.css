@@ -1,3 +1,6 @@
+.blog-impressum > .prose { padding-bottom: 3rem; }
+.blog-impressum > .prose > h3 { visibility: hidden; }
+
 .mode-dark .dark\:bg-brand-dark-grey-900 { background-color: #222830; }
 .mode-dark .dark\:bg-brand-black { background-color: #222830; }
 .mode-dark .blog-header { background-color: #222830; }
@@ -18,6 +21,12 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 .mode-dark .prose a { color: #93b0ff; }
 
 .prose pre { color: #373737; background-color: #ffffff; }
+
+.hljs-params, .hljs-class .hljs-title { color: #166fc1; }
+.mode-dark .hljs-params, .hljs-class .hljs-title { color: #68aff0; }
+
+.hljs, .hljs-tag, .hljs-subst { color: #0e0e0e; }
+.mode-dark .hljs, .hljs-tag, .hljs-subst { color: #f8f8f2; }
 .mode-dark .prose pre { color: #e2e8f0; background-color: #222830; border-color: #45505e; }
 .mode-dark .hljs-string, .mode-dark .hljs-type, .mode-dark .hljs-built_in, .mode-dark .hljs-builtin-name,
 .mode-dark .hljs-selector-id, .mode-dark .hljs-selector-attr, .mode-dark .hljs-selector-pseudo, .mode-dark .hljs-addition,
