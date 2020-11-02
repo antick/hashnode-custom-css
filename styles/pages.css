@@ -1,3 +1,6 @@
+.blog-impressum > .prose { padding-bottom: 3rem; }
+.blog-impressum > .prose > h3 { visibility: hidden; }
+
 .mode-dark .dark\:bg-black { background-color: #222830; }
 .mode-dark .dark\:bg-brand-black { background-color: #222830; }
 .mode-dark .blog-header { background-color: #222830; }
