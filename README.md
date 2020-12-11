@@ -1,10 +1,8 @@
 # Hashnode Custom CSS
 
-Custom CSS templates for Hashnode
+Hashnode allows you to add custom styles for your blog. This custom CSS tweaks a lot of things in both light and dark mode.
 
-> It's a Work-in-progress.
-
-The initial CSS template files can be accessed in `styles` folder.
+CSS template files can be accessed in `styles` folder. All you have to do is, copy and paste these styles in their respective code editors on Hashnode Custom CSS page.
 
 ### What changes are offered by these custom styles?
 
@@ -16,3 +14,6 @@ The initial CSS template files can be accessed in `styles` folder.
 6. Shaky effect on reactions
 
 Read about these CSS changes in detail on my [blog](https://slashism.com/how-i-added-sticky-header-and-custom-css-on-my-hashnode-blog). All these custom changes are applied on the blog already so you can check it out.
+
+# Author
+Pankaj Sanam
