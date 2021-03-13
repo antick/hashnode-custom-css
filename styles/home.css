@@ -1,20 +1,20 @@
 .blog-impressum > .prose { padding-bottom: 3rem; }
 .blog-impressum > .prose > h3 { visibility: hidden; }
 
-.mode-dark .blog-impressum { border: 1px solid #3c4654; }
+.dark .blog-impressum { border: 1px solid #3c4654; }
 
-.mode-dark .blog-header { background-color: #222830; }
+.dark .blog-header { background-color: #222830; }
 .blog-header + div { border-bottom: 1px solid #eee; }
-.mode-dark .dark\:bg-brand-dark-grey-900 { background-color: #222830; }
-.mode-dark .dark\:bg-brand-black { background-color: #222830; }
-.mode-dark .blog-header + div { border-color: #2d3748; border-color: rgba(45, 55, 72, 1); background-color: #222830; }
-.mode-dark .prose a { color: #93b0ff; }
+.dark .dark\:bg-brand-dark-grey-900 { background-color: #222830; }
+.dark .dark\:bg-brand-black { background-color: #222830; }
+.dark .blog-header + div { border-color: #2d3748; border-color: rgba(45, 55, 72, 1); background-color: #222830; }
+.dark .prose a { color: #93b0ff; }
 .blog-author-card { padding-top: 2rem; padding-bottom: 0; margin-bottom: 2.2rem; }
 .blog-content-area { padding-top: 3rem; }
 .blog-subscription-form { margin-bottom: 3rem; }
 .blog-follow-wrapper { display: none; }
 .blog-author-area-photo { border: 3px dotted #36c1a2; }
-.mode-dark .button-primary { color: #fff; border-color: #fff; }
+.dark .button-primary { color: #fff; border-color: #fff; }
 
 @media (min-width: 640px) {
   .blog-author-card { padding-top: 2rem; }
@@ -27,7 +27,7 @@
 @media (min-width: 1024px) {
   .blog-author-card { padding-top: 3rem; }
   .blog-header { position: fixed; width: 100%; background: #fff; }
-  .mode-dark .blog-header { position: fixed; width: 100%; }
+  .dark .blog-header { position: fixed; width: 100%; }
   .blog-header + div { padding-top: 8.4rem; }
 }
 
