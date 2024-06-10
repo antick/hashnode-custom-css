@@ -1,4 +1,6 @@
-# Hashnode Custom CSS
+# ARCHIVED - I DON'T USE HASHNODE FOR MY BLOGS ANYMORE
+
+## Hashnode Custom CSS
 
 Hashnode allows you to add custom styles for your blog. This custom CSS tweaks a lot of things in both light and dark mode.
 
@@ -15,10 +17,4 @@ CSS template files can be accessed in `styles` folder. All you have to do is, co
 
 ## Demo
 
-Read about these CSS changes in detail on my [blog](https://slashism.com/how-i-added-sticky-header-and-custom-css-on-my-hashnode-blog).
-
-All these custom changes are applied on the blog already so you can check it out.
-
-## Author
-
-Pankaj Sanam
+REMOVED
